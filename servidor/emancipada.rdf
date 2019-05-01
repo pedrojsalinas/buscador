@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ns0="http://purl.org/ontology/wo/"
+         xmlns:ns1="hhttp://xmlns.com/foaf/0.1/"
+         xmlns:ns2="http://acme.org/PLE/schema/ebucore:"
+         xmlns:ns3="http://acme.org/PLE/schema/gold:"
+         xmlns:ns4="http://comicmeta.org/cbo/"
+         xmlns:ns5="http://dbpedia.org/ontology/"
+         xmlns:ns6="http://lsdis.cs.uga.edu/projects/semdis/opus#"
+         xmlns:ns7="http://ns.inria.fr/ast/sql#"
+         xmlns:ns8="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+         xmlns:ns9="http://www.ontologydesignpatterns.org/ont/dul/IOLite.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:ns10="http://ns.nature.com/terms/"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:ns11="http://ns.inria.fr/nicetag/2010/09/09/voc#"
+         xmlns:ns12="http://purl.org/vocab/bio/0.1/"
+         xmlns:ns13="http://semanticscience.org/resource/"
+         xmlns:ns14="http://www.w3.org/ns/odrl/2/"
+         xmlns:doap="http://usefulinc.com/ns/doap#"
+         xmlns:ns15="http://rhizomik.net/ontologies/copyrightonto.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:ns16="http://acme.org/PLE/schema/foaf:"
+         xmlns:schema="http://schema.org/"
+         xmlns:ns17="http://www.ics.forth.gr/isl/MarineTLO/v4/marinetlo.owl#"
+         xmlns:ns18="http://vocab.getty.edu/ontology#"
+         xmlns:ns19="http://www.w3.org/2018/vcard-new/1#"
+         xmlns:ns20="http://acme.org/PLE/schema/akt:"
+         xmlns:ns21="http://acme.org/PLE/schema/dbo:"
+         xmlns:ns22="http://sparql.cwrc.ca/ontology/cwrc#"
+         xmlns:ns23="http://acme.org/PLE/schema/gc:"
+         xmlns:ns24="http://acme.org/PLE/schema/sio:"
+         xmlns:ns25="http://d-nb.info/standards/elementset/gnd#"
+         xmlns:ns26="http://iflastandards.info/ns/fr/frbr/frbrer/"
+         xmlns:ns27="http://dati.isprambiente.it/ontology/core#"
+         xmlns:ns28="http://data.archiveshub.ac.uk/def/"
+         xmlns:ns29="http://erlangen-crm.org/current/"
+         xmlns:ns30="http://dbpedia.org/populationTotal/"
+         xmlns:ns31="http://dbpedia.org/property/"
+         xmlns:ns32="http://www.ontotext.com/proton/protonext#"
+         xmlns:ns33="http://www.kanzaki.com/ns/whois#"
+         xmlns:ns34="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:ns35="http://www.w3.org/ns/auth/acl#"
+         xmlns:ns36="http://acme.org/PLE/schema/dbpedia-owl:"
+         xmlns:ns37="http://www.w3.org/ns/person#"
+         xmlns:ns38="http://d-nb.info/standards/elementset/agrelon#"
+         xmlns:ns39="http://lemon-model.net/lemon#"
+         xmlns:ns40="http://dbpedia.org/ontology/PopulatedPlace/"
+         xmlns:ns41="http://vocab.deri.ie/br#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:ns42="http://purl.org/ontology/places/"
+         xmlns:ns43="http://purl.org/ontomedia/ext/common/being#"
+         xmlns:ns44="http://linkedgeodata.org/ontology/">
+
+  <rdf:Description rdf:about="http://acme.org/PLE/resource/La_Emancipada">
+    <ns0:name>La Emancipada</ns0:name>
+    <ns1:genero>
+      <rdf:Description rdf:about="http://purl.org/spar/fabio/novel">
+        <rdf:type >
+          <rdf:Description rdf:about="http://sparql.cwrc.ca/ontology/cwrc#RomanceName">
+            <rdf:type  rdf:resource="http://dbpedia.org/ontology/LiteraryGenre"/>
+          </rdf:Description>
+        </rdf:type >
+
+      </rdf:Description>
+    </ns1:genero>
+
+    <ns2:isRelatedTo>Historia de 1841</ns2:isRelatedTo>
+    <ns3:Character rdf:resource="http://acme.org/PLE/resource/Eduardo"/>
+    <ns4:writert>Epoca de romantisismo</ns4:writert>
+    <ns5:language rdf:resource="http://dbpedia.org/resource/Spanish_language"/>
+    <ns6:author rdf:resource="http://acme.org/PLE/resource/MR"/>
+    <ns7:existe>primer PersonajeSecundario</ns7:existe>
+    <ns7:existe>
+      <rdf:Description rdf:about="http://acme.org/PLE/resource/Anselmo">
+        <ns8:Role rdf:resource="http://acme.org/PLE/resource/Agricultor"/>
+        <ns9:isAssignedTo rdf:resource="http://acme.org/PLE/resource/TercerPersonajeSegundario"/>
+        <foaf:nick rdf:resource="http://acme.org/PLE/resource/DonAnselmo"/>
+      </rdf:Description>
+    </ns7:existe>
+
+    <ns7:existe>
+      <rdf:Description rdf:about="http://rdf.muninn-project.org/ontologies/military#AirForceGroup">
+        <ns9:isAssignedTo rdf:resource="http://acme.org/PLE/resource/tercerPersonajeSecundario"/>
+      </rdf:Description>
+    </ns7:existe>
+
+    <ns10:publibationYear>1863</ns10:publibationYear>
+    <dc:medium rdf:resource="http://www.aktors.org/ontology/portal#Diario-Periodico"/>
+    <dc:sujeto rdf:resource="http://acme.org/PLE/resource/PrimeraNovelaEcuador"/>
+    <bibo:authorList>
+      <rdf:Description rdf:about="http://acme.org/PLE/resource/Rosaura">
+        <ns4:character>Timido</ns4:character>
+        <ns4:character>Modesto</ns4:character>
+        <ns4:character>Liberal</ns4:character>
+        <ns11:isRelevant>Huerfana</ns11:isRelevant>
+        <ns11:isRelevant>hogoreña</ns11:isRelevant>
+        <ns12:Marriage>6 De Enero</ns12:Marriage>
+        <ns13:SIO_000412 rdf:resource="http://acme.org/PLE/resource/Eduardo"/>
+        <foaf:person>
+          <rdf:Description rdf:about="http://acme.org/PLE/resource/PedroMendoza">
+            <foaf:nick>
+              <rdf:Description rdf:about="http://acme.org/PLE/resource/DonPedro">
+                <ns4:writert>Superioridad</ns4:writert>
+                <ns10:date rdf:resource="http://purl.org/vocab/bio/0.1/Marriage"/>
+                <ns9:isAssignedTo rdf:resource="http://acme.org/PLE/resource/SegundoPersonajePrincipal"/>
+                <ns14:Agreement rdf:resource="http://www.ontotext.com/proton/protonext#hasSocialPositionCleric"/>
+              </rdf:Description>
+            </foaf:nick>
+
+          </rdf:Description>
+        </foaf:person>
+
+        <doap:helper rdf:resource="http://purl.org/dc/elements/1.1/Person"/>
+      </rdf:Description>
+    </bibo:authorList>
+
+    <ns15:Ambient>
+      <rdf:Description rdf:about="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasSeason">
+        <prov:wasDerivedFrom rdf:resource="http://www.disit.org/km4city/schema#Summer_camp"/>
+        <owl:sameAs rdf:resource="http://www.disit.org/km4city/schema#Summer_camp"/>
+        <ns16:isPrimaryTopicOf rdf:resource="http://www.disit.org/km4city/schema#Summer_camp"/>
+        <ns5:recordedIn>Album artistico de fuego</ns5:recordedIn>
+      </rdf:Description>
+    </ns15:Ambient>
+
+    <schema:Place rdf:resource="http://dbpedia.org/resource/Quito"/>
+    <ns8:isRelatedTo>En tercera persona</ns8:isRelatedTo>
+    <ns17:BC24_Repository_Object>
+      <rdf:Description rdf:about="http://acme.org/PLE/resource/malacatos">
+        <ns18:tgn3101_near-adyacente_to rdf:resource="http://dbpedia.org/resource/loja,_Ecuador"/>
+        <ns19:street-address>San Agustin</ns19:street-address>
+      </rdf:Description>
+    </ns17:BC24_Repository_Object>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://acme.org/PLE/resource/MR">
+    <ns20:studies-at>
+      <rdf:Description rdf:about="http://acme.org/PLE/resource/dbpedia:loja,_Ecuador">
+        <ns21:areaCode>(+593) 7</ns21:areaCode>
+      </rdf:Description>
+    </ns20:studies-at>
+
+    <ns22:studies rdf:resource="http://dbpedia.org/resource/loja,_Ecuador"/>
+    <ns23:foundedOn>
+      <rdf:Description rdf:about="http://acme.org/PLE/resource/bibo:Newspaper">
+        <ns24:SIO_000181>6 de marzo</ns24:SIO_000181>
+      </rdf:Description>
+    </ns23:foundedOn>
+
+    <ns25:fieldOfStudy>Convictorio de San fernando</ns25:fieldOfStudy>
+    <ns25:professionOrOccupation rdf:resource="http://onto.dm2e.eu/schemas/dm2e/writer"/>
+    <ns25:professionOrOccupation>
+      <rdf:Description rdf:about="http://dbpedia.org/ontology/Politician">
+        <ns26:P3001>
+          <rdf:Description rdf:about="https://w3id.org/i40/sto#hasDBpediaResource">
+            <ns27:belongsTo rdf:resource="http://acme.org/PLE/resource/AnsableaConstituyente"/>
+          </rdf:Description>
+        </ns26:P3001>
+
+      </rdf:Description>
+    </ns25:professionOrOccupation>
+
+    <ns25:professionOrOccupation rdf:resource="http://linkedgeodata.org/ontology/Lawyer"/>
+    <ns25:professionOrOccupation rdf:resource="http://id.loc.gov/vocabulary/relators/tch"/>
+    <ns25:professionOrOccupation>Poeta</ns25:professionOrOccupation>
+    <ns28:dateBirth>7 de Septiembre de 1822</ns28:dateBirth>
+    <ns28:dateDeath>11 de Octubre de 1879</ns28:dateDeath>
+    <ns29:P100i_died_in rdf:resource="http://dbpedia.org/resource/Lima"/>
+    <ns0:name>Miguel Riofrio</ns0:name>
+    <ns12:Graduation>1851</ns12:Graduation>
+    <schema:opponent>
+      <foaf:Person rdf:about="http://acme.org/PLE/resource/GGM">
+        <ns5:commander rdf:resource="http://dbpedia.org/resource/Battle_of_Guayaquil"/>
+        <ns5:orderInOffice>President of Ecuador</ns5:orderInOffice>
+        <ns5:religion rdf:resource="http://dbpedia.org/resource/Catholic_Church"/>
+        <ns5:spouse rdf:resource="http://vocab.deri.ie/br#Rosa_de_Ascásubi"/>
+        <ns5:spouse>Mariana del Alcázar</ns5:spouse>
+        <ns5:successor rdf:resource="http://dbpedia.org/resource/Guillermo_Franco_(Ecuadorian_general)"/>
+        <ns5:successor rdf:resource="http://dbpedia.org/resource/Juan_Javier_Espinosa"/>
+        <ns5:vicePresident rdf:resource="http://dbpedia.org/resource/Mariano_Cueva"/>
+        <ns5:vicePresident rdf:resource="http://dbpedia.org/resource/Francisco_Xavier_León"/>
+        <ns30:party rdf:resource="http://dbpedia.org/resource/Conservative_Party_(Ecuador))"/>
+        <ns31:nationality>Ecuadorian</ns31:nationality>
+        <ns0:name>Gabriel Garcia Moreno</ns0:name>
+        <rdf:type rdf:resource="http://acme.org/PLE/resource/dbo:Politician"/>
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/President"/>
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson"/>
+        <foaf:givenName>Gabriel</foaf:givenName>
+        <foaf:isPrimaryTopicOf rdf:resource="https://repositorio.flacsoandes.edu.ec/handle/10469/8851"/>
+      </foaf:Person>
+    </schema:opponent>
+
+    <schema:spouse>
+      <rdf:Description rdf:about="http://acme.org/PLE/resource/JC">
+        <ns0:name>JosefaCorrea</ns0:name>
+        <ns12:mother>
+          <rdf:Description rdf:about="http://acme.org/PLE/resource/SantiagoR">
+            <ns22:sonOf rdf:resource="http://acme.org/PLE/resource/MR"/>
+          </rdf:Description>
+        </ns12:mother>
+
+        <ns32:Nationality>Peruana</ns32:Nationality>
+      </rdf:Description>
+    </schema:spouse>
+
+    <ns13:SIO_000109>Maria</ns13:SIO_000109>
+    <ns33:professionalCareer>
+      <rdf:Description rdf:about="http://acme.org/PLE/resource/Ambassador">
+        <ns25:professionOrOccupation>Ministerio de relaciones exteriores</ns25:professionOrOccupation>
+      </rdf:Description>
+    </ns33:professionalCareer>
+
+    <ns34:birthPlace rdf:resource="http://dbpedia.org/resource/loja,_Ecuador"/>
+    <ns35:write>1846</ns35:write>
+    <foaf:based_near rdf:resource="http://dbpedia.org/resource/Lima"/>
+    <ns22:sonOf>
+      <rdf:Description rdf:about="http://acme.org/PLE/resource/JJR">
+        <ns0:name> José Joaquín Riofrío </ns0:name>
+        <ns25:professionOrOccupation rdf:resource="http://linkedgeodata.org/ontology/Doctor"/>
+      </rdf:Description>
+    </ns22:sonOf>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://acme.org/PLE/resource/dbpedia:Peru">
+    <ns21:capital rdf:resource="http://acme.org/PLE/resource/dbr:Lima"/>
+    <ns21:ethnicGroup rdf:resource="http://acme.org/PLE/resource/dbr:Mestizo"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Peru">
+    <ns21:language rdf:resource="http://dbpedia.org/resource/Spanish_language"/>
+    <ns21:language rdf:resource="http://dbpedia.org/resource/Aymara_language"/>
+    <ns5:language rdf:resource="http://dbpedia.org/resource/Quechuan_languages"/>
+    <ns18:tgn3101_near-adyacente_to rdf:resource="http://acme.org/PLE/resource/Sudamerica"/>
+    <ns18:tgn3101_near-adyacente_to rdf:resource="http://acme.org/PLE/resource/Iberoamerica"/>
+    <ns18:tgn3101_near-adyacente_to rdf:resource="http://dbpedia.org/resource/Latin_America"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/leaderName">
+    <ns21:leaderName rdf:resource="http://dbpedia.org/resource/Municipality_of_Quito"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://acme.org/PLE/resource/Eduardo">
+    <ns36:writer>Elogios</ns36:writer>
+    <ns11:isRelevant>Eterno Amor de Rosaura</ns11:isRelevant>
+    <ns25:professionOrOccupation rdf:resource="http://www.ontotext.com/proton/protonext#hasSocialPositionCleric"/>
+    <ns9:isAssignedTo>Tercer personaje principal</ns9:isAssignedTo>
+    <ns37:residency rdf:resource="http://dbpedia.org/resource/Quito"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://acme.org/PLE/resource/primerPersonajeSecundario">
+    <ns38:correspondsTo>
+      <rdf:Description rdf:about="http://acme.org/PLE/resource/Sacerdote">
+        <ns39:reference rdf:resource="http://ontology.eil.utoronto.ca/ISO37120.owl#ISO37120_Indicator"/>
+      </rdf:Description>
+    </ns38:correspondsTo>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Latin_America">
+    <ns5:billed rdf:resource="http://dbpedia.org/resource/Jose_Luis_Rivera"/>
+    <ns5:language rdf:resource="http://dbpedia.org/resource/Italian_language"/>
+    <ns5:language rdf:resource="http://dbpedia.org/resource/Portuguese_language"/>
+    <ns5:language rdf:resource="http://dbpedia.org/resource/Spanish_language"/>
+    <ns5:language rdf:resource="http://dbpedia.org/resource/Quechua_languages"/>
+    <ns5:language rdf:resource="http://dbpedia.org/resource/Dutch_language"/>
+    <ns5:language rdf:resource="http://dbpedia.org/resource/English_language"/>
+    <ns40:areaTotal>1,9197E7</ns40:areaTotal>
+    <ns5:populationTotal>626741000</ns5:populationTotal>
+    <ns31:time>UTC-2 to UTC-8</ns31:time>
+    <ns41:And_They_Call_It_Democracy rdf:resource="dbr:And_They_Call_It_Democracy"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/History_of_North_America"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Ecuador">
+    <ns5:capital rdf:resource="http://dbpedia.org/resource/Quito"/>
+    <ns5:language rdf:resource="http://dbpedia.org/resource/Spanish_language"/>
+    <ns5:language rdf:resource="http://dbpedia.org/resource/Shuar_language"/>
+    <ns5:language rdf:resource="http://dbpedia.org/resource/Kichwa"/>
+    <ns31:subdivisionType rdf:resource="http://dbpedia.org/resource/Cantons_of_Ecuador"/>
+    <ns31:subdivisionType rdf:resource="http://dbpedia.org/resource/Provinces_of_Ecuador"/>
+    <ns31:subdivisionType rdf:resource="http://dbpedia.org/resource/Countries_of_the_world"/>
+    <ns18:tgn3101_near-adyacente_to rdf:resource="http://acme.org/PLE/resource/Sudamerica"/>
+    <ns18:tgn3101_near-adyacente_to rdf:resource="http://acme.org/PLE/resource/Iberoamerica"/>
+    <ns18:tgn3101_near-adyacente_to rdf:resource="http://dbpedia.org/resource/Latin_America"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/loja,_Ecuador">
+    <ns5:elevation>2059,838400</ns5:elevation>
+    <ns5:postalCode>110101</ns5:postalCode>
+    <ns31:populationDemonym>Lojano/a</ns31:populationDemonym>
+    <ns42:Provonce rdf:resource="http://dbpedia.org/resource/Ecuador"/>
+    <ns43:have-done rdf:resource="http://dbpedia.org/ontology/country"/>
+  </rdf:Description>
+
+  <ns5:City rdf:about="http://dbpedia.org/resource/Quito">
+    <ns5:subdivisionType rdf:resource="http://dbpedia.org/resource/Cantons_of_Ecuador"/>
+    <ns31:blankInfo rdf:resource="http://dbpedia.org/resource/Oceanic_climate"/>
+    <ns31:p rdf:resource="http://acme.org/PLE/resource/Quitumbe"/>
+    <ns31:source rdf:resource="http://dbpedia.org/resource/World_Meteorological_Organization"/>
+    <ns31:type rdf:resource="http://acme.org/PLE/resource/Cultural"/>
+    <ns44:City rdf:resource="http://dbpedia.org/resource/Ecuador"/>
+    <dc:subject rdf:resource="http://dbpedia.org/resource/Category:World_Heritage_Sites_in_Ecuador"/>
+    <dc:subject rdf:resource="http://dbpedia.org/resource/Category:Capitals_in_South_America"/>
+    <dc:subject rdf:resource="http://dbpedia.org/resource/Category:Provincial_capitals_in_Ecuador"/>
+    <ns13:SIO_001066 rdf:resource="http://linkedgeodata.org/ontology/School"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
+    <ns5:whs rdf:resource="http://acme.org/PLE/resource/CityofQuito"/>
+    <ns5:wikiPageExternalLink  rdf:resource="http://www.quito.gob.ec"/>
+    <ns5:wikiPageExternalLink rdf:resource="http://www.conesup.net/"/>
+    <ns5:wikiPageExternalLink rdf:resource="http://www.ecuaswissexchange./project/volunteer-ecuador-working-with-children-quito/"/>
+    <ns5:wikiPageExternalLink rdf:resource="http://whc.unesco.org/en/list/2"/>
+  </ns5:City>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mulatto">
+    <ns5:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Mulatto_Americans"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lima">
+    <ns44:City rdf:resource="http://dbpedia.org/resource/Peru"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://acme.org/PLE/resource/CP">
+    <ns11:isRelevant rdf:resource="http://dbpedia.org/resource/Mulatto"/>
+    <ns0:name>Custodia Pedreros</ns0:name>
+    <ns12:mother rdf:resource="http://acme.org/PLE/resource/MR"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://contsem.unizar.es/def/sector-publico/pproc#noticeSite">
+    <ns0:name>La Union</ns0:name>
+  </rdf:Description>
+
+</rdf:RDF>
